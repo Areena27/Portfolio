@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Areena Aji — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Areena Aji — Computer Science Graduate portfolio" />
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav id="site-nav" class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" data-scroll="#home">AA</a>
+
+      <div class="nav-links" id="nav-links-desktop">
+        <a class="nav-link" href="#home" data-scroll="#home">Home</a>
+        <a class="nav-link" href="#about" data-scroll="#about">About</a>
+        <a class="nav-link" href="#skills" data-scroll="#skills">Skills</a>
+        <a class="nav-link" href="#projects" data-scroll="#projects">Projects</a>
+        <a class="nav-link" href="#contact" data-scroll="#contact">Contact</a>
+      </div>
+
+      <button id="mobile-toggle" class="mobile-btn" aria-label="Toggle menu">
+        <svg id="menu-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg id="close-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M6 6l12 12M6 18L18 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+      <a class="mobile-link" href="#home" data-scroll="#home"></a>
+      <a class="mobile-link" href="#about" data-scroll="#about"></a>
+      <a class="mobile-link" href="#skills" data-scroll="#skills"></a>
+      <a class="mobile-link" href="#projects" data-scroll="#projects"></a>
+      <a class="mobile-link" href="#contact" data-scroll="#contact"></a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg-1"></div>
+      <div class="hero-bg-2"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2" style="animation-delay:1s"></div>
+
+      <div class="container hero-content">
+        <div class="hero-inner">
+          <h1 class="name">Areena Aji</h1>
+          <p class="subtitle">Computer Science Graduate</p>
+          <p class="lead">Passionate about transforming ideas into intelligent solutions.</p>
+
+          <div class="hero-buttons">
+            <a class="btn primary large" href="assets/Areena_Aji_Resume.pdf" download="Areena_Aji_Resume.pdf" title="Download Resume">
+              <!-- FileText icon -->
+              <svg class="icon-left" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+              Download Resume
+            </a>
+
+            <div class="socials">
+              <a class="btn outline icon" href="https://mail.google.com/mail/?view=cm&fs=1&to=areenaaji12@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8l9 6 9-6"/></svg>
+              </a>
+
+              <a class="btn outline icon" href="https://linkedin.com/in/areena-aji-mace25" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M8 11v6M8 8v.01M12 17v-4c0-1.1.9-2 2-2s2 .9 2 2v4"/></svg>
+              </a>
+
+              <a class="btn outline icon" href="https://github.com/Areena27" target="_blank" rel="noopener noreferrer" title="Github">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.12-1.47-1.12-1.47-.92-.63.07-.62.07-.62 1.02.07 1.56 1.05 1.56 1.05.9 1.54 2.36 1.09 2.93.84.09-.65.35-1.09.64-1.34-2.21-.25-4.53-1.11-4.53-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.55 9.55 0 0 1 12 6.8c.85 0 1.71.11 2.5.33 1.9-1.29 2.74-1.02 2.74-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.33 4.7-4.55 4.95.36.31.68.92.68 1.85v2.74c0 .26.18.57.69.48A10 10 0 0 0 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="scroll-cue">
+            <a href="#about" data-scroll="#about" class="mouse">
+              <span class="dot"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-inner">
+          <div class="section-header">
+            <h2>About Me</h2>
+            <p class="muted">B.Tech graduate in Computer Science with hands-on experience in machine learning and web development. Recognized for innovative academic projects and technical certifications.</p>
+          </div>
+
+          <div class="card-grid about-grid">
+            <div class="card card-glass" style="--delay:.1s">
+              <div class="card-icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/><path d="M6 20a6 6 0 0 1 12 0"/></svg></div>
+              <h3>Profile</h3>
+              <p class="muted">A committed learner aiming to grow through real-world challenges. Strong foundation in software development, problem-solving, and emerging technologies.</p>
+            </div>
+
+            <div class="card card-glass" style="--delay:.2s">
+              <div class="card-icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v6M12 12v10M5 8h14"/></svg></div>
+              <h3>Core Strengths</h3>
+              <p>💡 Innovative Problem Solver<br>🤝 Team Player<br>📊 Analytical Thinker<br>🚀 Quick Learner</p>
+            </div>
+
+            <div class="card card-glass" style="--delay:.3s">
+              <div class="card-icon"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18l6-6-6-6"/></svg></div>
+              <h3>Vision</h3>
+              <p class="muted">Passionate about leveraging technology to solve real-world problems and create meaningful impact. Constantly exploring new technologies to stay at the forefront.</p>
+            </div>
+          </div>
+
+          <div class="center mt-24">
+            <a class="btn primary large" href="aboutdetails.html">Know More About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="section-inner">
+          <div class="section-header">
+            <h2>Skills &amp; Expertise</h2>
+            <p class="muted">A comprehensive set of technical skills acquired through academic projects, certifications, and hands-on experience.</p>
+          </div>
+
+          <div class="grid skills-grid">
+            <div class="card card-glass" style="--delay:.1s">
+              <h4>Programming Languages</h4>
+              <div class="badges">
+                <span class="badge">Python</span>
+                <span class="badge">SQL</span>
+                <span class="badge">HTML</span>
+                <span class="badge">CSS</span>
+                <span class="badge">Java (Basics)</span>
+                <span class="badge">C (Basics)</span>
+              </div>
+            </div>
+
+            <div class="card card-glass" style="--delay:.2s">
+              <h4>Core Concepts</h4>
+              <div class="badges">
+                <span class="badge">OOP</span>
+                <span class="badge">SDLC</span>
+                <span class="badge">DBMS</span>
+                <span class="badge">OS</span>
+                <span class="badge">Data Structures</span>
+                <span class="badge">Algorithms</span>
+              </div>
+            </div>
+
+            <div class="card card-glass" style="--delay:.3s">
+              <h4>Tools & Platforms</h4>
+              <div class="badges">
+                <span class="badge">VS Code</span>
+                <span class="badge">GitHub</span>
+                <span class="badge">Jupyter</span>
+                <span class="badge">Google Cloud</span>
+                <span class="badge">PowerPoint</span>
+              </div>
+            </div>
+
+            <div class="card card-glass" style="--delay:.4s">
+              <h4>Version Control</h4>
+              <div class="badges">
+                <span class="badge">Git (Basics)</span>
+                <span class="badge">GitHub</span>
+              </div>
+            </div>
+
+            <div class="card card-glass" style="--delay:.5s">
+              <h4>Soft Skills</h4>
+              <div class="badges">
+                <span class="badge">Adaptability</span>
+                <span class="badge">Communication</span>
+                <span class="badge">Teamwork</span>
+                <span class="badge">Analytical Thinking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-inner">
+          <div class="section-header">
+            <h2>Projects</h2>
+            <p class="muted">Showcasing practical applications of technical skills through real-world projects</p>
+          </div>
+
+          <div class="grid projects-grid">
+            <!-- Project 1 -->
+            <article class="card project-card" style="--delay:.1s">
+              <div class="project-head">
+                <h3>Fine-tuned Bio_ClinicalBERT for Personalized Treatment Optimization</h3>
+                <p class="muted">ML model for person-specific treatment prediction with side effects analysis</p>
+              </div>
+              <div class="project-body">
+                <div class="techs">
+                  <span class="badge small">Python</span>
+                  <span class="badge small">BERT</span>
+                  <span class="badge small">Ensemble</span>
+                  <span class="badge small">+2</span>
+                </div>
+                <div class="project-actions">
+                  <button class="btn outline small" data-modal-open="proj-1">View Details</button>
+                  <a class="btn ghost icon small" href="https://github.com/Areena27/Personalized-Treatment-Optimization-and-Side-Effect-Prediction-for-Lung-Cancer" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.12-1.47-1.12-1.47-.92-.63.07-.62.07-.62 1.02.07 1.56 1.05 1.56 1.05.9 1.54 2.36 1.09 2.93.84.09-.65.35-1.09.64-1.34-2.21-.25-4.53-1.11-4.53-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.55 9.55 0 0 1 12 6.8c.85 0 1.71.11 2.5.33 1.9-1.29 2.74-1.02 2.74-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.33 4.7-4.55 4.95.36.31.68.92.68 1.85v2.74c0 .26.18.57.69.48A10 10 0 0 0 12 2z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="card project-card" style="--delay:.2s">
+              <div class="project-head">
+                <h3>Face Emotion Recognition for Visually Impaired People</h3>
+                <p class="muted">Transfer learning-based emotion recognition system using OpenCV</p>
+              </div>
+              <div class="project-body">
+                <div class="techs">
+                  <span class="badge small">Python</span>
+                  <span class="badge small">OpenCV</span>
+                  <span class="badge small">Transfer Learning</span>
+                </div>
+                <div class="project-actions">
+                  <button class="btn outline small" data-modal-open="proj-2">View Details</button>
+                  <a class="btn ghost icon small" href="https://github.com/Areena27/Face-Emotion-Recognition-for-Visually-Impaired-People" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.12-1.47-1.12-1.47-.92-.63.07-.62.07-.62 1.02.07 1.56 1.05 1.56 1.05.9 1.54 2.36 1.09 2.93.84.09-.65.35-1.09.64-1.34-2.21-.25-4.53-1.11-4.53-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.55 9.55 0 0 1 12 6.8c.85 0 1.71.11 2.5.33 1.9-1.29 2.74-1.02 2.74-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.33 4.7-4.55 4.95.36.31.68.92.68 1.85v2.74c0 .26.18.57.69.48A10 10 0 0 0 12 2z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="card project-card" style="--delay:.3s">
+              <div class="project-head">
+                <h3>Hostel Management System</h3>
+                <p class="muted">Web-based application for efficient hostel operations management</p>
+              </div>
+              <div class="project-body">
+                <div class="techs">
+                  <span class="badge small">Python</span>
+                  <span class="badge small">MySQL</span>
+                  <span class="badge small">Web Dev</span>
+                </div>
+                <div class="project-actions">
+                  <button class="btn outline small" data-modal-open="proj-3">View Details</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODALS -->
+      <div id="modal-root">
+        <!-- Modal 1 -->
+        <div id="proj-1" class="modal" role="dialog" aria-hidden="true" aria-labelledby="proj-1-title">
+          <div class="modal-panel">
+            <button class="modal-close" data-modal-close>&times;</button>
+            <h3 id="proj-1-title">Fine-tuned Bio_ClinicalBERT for Personalized Treatment Optimization</h3>
+            <p class="muted">ML model for person-specific treatment prediction with side effects analysis</p>
+            <div class="modal-body">
+              <img src="assets/project-biobert.png" alt="BioBERT project image" class="modal-img" />
+              <h4>Overview</h4>
+              <p>Trained a model to help choose person-specific treatments and predict side effects using BERT and ensemble learning for improved healthcare outcomes.</p>
+              <h4>Tech Stack</h4>
+              <div class="badges">
+                <span class="badge small">Python</span><span class="badge small">BERT</span><span class="badge small">Ensemble</span><span class="badge small">NLP</span>
+              </div>
+              <h4>Key Contributions</h4>
+              <ul class="muted">
+                <li>Fine-tuned Bio_ClinicalBERT for clinical text analysis</li>
+                <li>Implemented ensemble learning to boost accuracy</li>
+                <li>Developed side-effect prediction pipeline</li>
+                <li>Prepared clinical dataset preprocessing and metrics</li>
+              </ul>
+              <h4>Conclusion</h4>
+              <p class="muted">Aids clinicians by providing personalized treatment recommendations and side-effect predictions to support safer decisions.</p>
+
+              <div class="modal-actions">
+                <a class="btn primary" href="https://github.com/Areena27/Personalized-Treatment-Optimization-and-Side-Effect-Prediction-for-Lung-Cancer" target="_blank" rel="noopener noreferrer">View Source</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 2 -->
+        <div id="proj-2" class="modal" role="dialog" aria-hidden="true" aria-labelledby="proj-2-title">
+          <div class="modal-panel">
+            <button class="modal-close" data-modal-close>&times;</button>
+            <h3 id="proj-2-title">Face Emotion Recognition for Visually Impaired People</h3>
+            <p class="muted">Transfer learning-based emotion recognition system using OpenCV</p>
+            <div class="modal-body">
+              <div class="modal-img-grid">
+                <img src="assets/project-emotion-1.png" alt="emotion 1" />
+                <img src="assets/project-emotion-2.png" alt="emotion 2" />
+              </div>
+              <h4>Overview</h4>
+              <p class="muted">Real-time facial emotion detection integrated with audio feedback to help visually impaired people understand emotions in their surroundings.</p>
+              <h4>Tech Stack</h4>
+              <div class="badges">
+                <span class="badge small">Python</span><span class="badge small">OpenCV</span><span class="badge small">Deep Learning</span>
+              </div>
+              <h4>Key Contributions</h4>
+              <ul class="muted">
+                <li>Transfer learning for emotion classification</li>
+                <li>Audio feedback for accessibility</li>
+                <li>Trained on diverse expression datasets</li>
+              </ul>
+              <div class="modal-actions">
+                <a class="btn primary" href="https://github.com/Areena27/Face-Emotion-Recognition-for-Visually-Impaired-People" target="_blank" rel="noopener noreferrer">View Source</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div id="proj-3" class="modal" role="dialog" aria-hidden="true" aria-labelledby="proj-3-title">
+          <div class="modal-panel">
+            <button class="modal-close" data-modal-close>&times;</button>
+            <h3 id="proj-3-title">Hostel Management System</h3>
+            <p class="muted">Web-based application for efficient hostel operations management</p>
+            <div class="modal-body">
+              <h4>Overview</h4>
+              <p class="muted">A web app handling student registration, room allocation, fees and complaints using Python backend and MySQL.</p>
+              <h4>Tech Stack</h4>
+              <div class="badges">
+                <span class="badge small">Python</span><span class="badge small">MySQL</span><span class="badge small">Web</span>
+              </div>
+              <h4>Key Contributions</h4>
+              <ul class="muted">
+                <li>Designed DB schema for hostel ops</li>
+                <li>Built admin and student interfaces</li>
+                <li>Automated room allocation and fee tracking</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-inner">
+          <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p class="muted">Feel free to reach out for collaborations, opportunities, or just a friendly chat!</p>
+          </div>
+
+          <div class="grid contact-grid">
+            <div class="card card-glass" style="--delay:.1s">
+              <h4><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8l9 6 9-6"/></svg> Email</h4>
+              <a class="muted link" href="mailto:areenaaji12@gmail.com">areenaaji12@gmail.com</a>
+            </div>
+
+            <div class="card card-glass" style="--delay:.2s">
+              <h4><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 8l9 6 9-6"/></svg> Phone</h4>
+              <a class="muted link" href="tel:+919895412668">+91 9895412668</a>
+            </div>
+
+            <div class="card card-glass" style="--delay:.3s">
+              <h4><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 6-9 11-9 11s-9-5-9-11a9 9 0 0 1 18 0z"/></svg> Location</h4>
+              <p class="muted">Ernakulam, Kerala</p>
+            </div>
+
+            <div class="card card-glass" style="--delay:.4s">
+              <h4>Social Links</h4>
+              <div class="socials">
+                <a class="btn outline icon" href="https://linkedin.com/in/areena-aji-mace25" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M8 11v6M8 8v.01M12 17v-4c0-1.1.9-2 2-2s2 .9 2 2v4"/></svg>
+                </a>
+                <a class="btn outline icon" href="https://github.com/Areena27" target="_blank" rel="noopener noreferrer" title="Github">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.12-1.47-1.12-1.47-.92-.63.07-.62.07-.62 1.02.07 1.56 1.05 1.56 1.05.9 1.54 2.36 1.09 2.93.84.09-.65.35-1.09.64-1.34-2.21-.25-4.53-1.11-4.53-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.55 9.55 0 0 1 12 6.8c.85 0 1.71.11 2.5.33 1.9-1.29 2.74-1.02 2.74-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.33 4.7-4.55 4.95.36.31.68.92.68 1.85v2.74c0 .26.18.57.69.48A10 10 0 0 0 12 2z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="center mt-24">
+            <p class="muted">Open to new opportunities and exciting projects!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p class="muted center">© <span id="year"></span> Areena Aji. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    /* Basic helpers */
+    const $ = (sel, root = document) => root.querySelector(sel);
+    const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+    /* Year */
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    /* Smooth scroll behavior for nav links */
+    function smoothScrollTo(selector) {
+      const el = document.querySelector(selector);
+      if (!el) return;
+      const offset = 70;
+      const rect = el.getBoundingClientRect();
+      const top = window.pageYOffset + rect.top - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+
+    document.querySelectorAll('[data-scroll]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = a.getAttribute('data-scroll');
+        // close mobile menu if open
+        closeMobileMenu();
+        // small delay to ensure menu closed
+        setTimeout(() => smoothScrollTo(target), 50);
+      });
+    });
+
+    /* Sticky nav blur & shadow on scroll */
+    const nav = document.getElementById('site-nav');
+    function onScrollNav() {
+      if (window.scrollY > 50) {
+        nav.classList.add('nav-scrolled');
+      } else {
+        nav.classList.remove('nav-scrolled');
+      }
+    }
+    window.addEventListener('scroll', onScrollNav);
+    onScrollNav();
+
+    /* Mobile menu toggle */
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    function openMobileMenu() {
+      mobileMenu.classList.add('open');
+      mobileMenu.setAttribute('aria-hidden', 'false');
+      menuIcon.style.display = 'none';
+      closeIcon.style.display = 'inline';
+    }
+    function closeMobileMenu() {
+      mobileMenu.classList.remove('open');
+      mobileMenu.setAttribute('aria-hidden', 'true');
+      menuIcon.style.display = 'inline';
+      closeIcon.style.display = 'none';
+    }
+
+    mobileToggle.addEventListener('click', () => {
+      if (mobileMenu.classList.contains('open')) closeMobileMenu();
+      else openMobileMenu();
+    });
+
+    // close when clicking outside on small screens
+    document.addEventListener('click', (e) => {
+      if (!mobileMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+        closeMobileMenu();
+      }
+    });
+
+    /* Simple modal system */
+    function openModal(id) {
+      const modal = document.getElementById(id);
+      if (!modal) return;
+      modal.setAttribute('aria-hidden','false');
+      modal.classList.add('modal-open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeModal(modal) {
+      modal.setAttribute('aria-hidden','true');
+      modal.classList.remove('modal-open');
+      document.body.style.overflow = '';
+    }
+
+    // open triggers
+    document.querySelectorAll('[data-modal-open]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-modal-open');
+        openModal(id);
+      });
+    });
+
+    // close triggers
+    document.querySelectorAll('[data-modal-close]').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const modal = btn.closest('.modal');
+        if (modal) closeModal(modal);
+      });
+    });
+
+    // click outside to close
+    document.querySelectorAll('.modal').forEach(m => {
+      m.addEventListener('click', (e) => {
+        if (e.target === m) closeModal(m);
+      });
+    });
+
+    // ESC to close modals
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-open').forEach(m => closeModal(m));
+      }
+    });
+
+    /* Reduce motion preference handling */
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReduced) {
+      document.documentElement.classList.add('reduced-motion');
+    }
+  </script>
+</body>
+</html>
